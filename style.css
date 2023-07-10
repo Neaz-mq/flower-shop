@@ -40,3 +40,126 @@
     height: 550px;
     margin-top: 30px;
 }
+
+.featured-container{
+    margin-bottom: 60px;
+}
+
+
+.featured-title{
+    color: #272727;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    margin-top: 80px;
+}
+
+.featured-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 18px;
+}
+
+.featured-flowers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.pink-background{
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(167, 33, 98, 0.15);
+
+}
+
+.size{
+    width: 150px;
+    height: 200px;
+}
+
+.sky-background{
+
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(5, 151, 160, 0.15);
+}
+
+.gray-background{
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+.flower-name ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 50px;
+    
+
+}
+
+.flower-name ul li{
+    text-decoration: underline;
+    
+}
+
+.position{
+    margin-top: 10px;
+    margin-left: 220px;
+    margin-right: -10px;
+    color: #272727;
+}
+
+.position-second{
+    color: #272727;
+    margin-right: 90px;
+    margin-left: -130px;
+    
+}
+
+.position-third{
+    color: #272727;
+    margin-right: 230px;
+    margin-left: -220px;
+}
+
+.featured-services{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 42%;
+    margin: auto;
+    padding: 77px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    gap: 55px;
+}
+
+.icon-size{
+    width: 35px;
+   margin-left: 58px;
+}
+
+.icon-description{
+    color: rgba(39, 39, 39, 0.80);
+   text-align: center;
+   font-size: 8.8px;
+   font-weight: 600;
+
+
+
+}
+
