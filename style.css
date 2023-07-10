@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: 'Lato', sans-serif;
@@ -6,27 +6,27 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.banner-container{
+.banner-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: rgba(229, 84, 115, 0.10);
 }
 
-.banner-title{
+.banner-title {
     color: #272727;
     font-size: 45px;
     font-weight: 800;
 }
 
-.banner-description{
+.banner-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 15px;
     font-weight: 400;
     margin-top: 20px;
 }
 
-.btn{
+.btn {
     border-radius: 8px;
     background: #E55473;
     color: white;
@@ -35,18 +35,18 @@
     margin-top: 20px;
 }
 
-.banner-img{
+.banner-img {
     width: 450px;
     height: 550px;
     margin-top: 30px;
 }
 
-.featured-container{
+.featured-container {
     margin-bottom: 60px;
 }
 
 
-.featured-title{
+.featured-title {
     color: #272727;
     text-align: center;
     font-size: 28px;
@@ -54,7 +54,7 @@
     margin-top: 80px;
 }
 
-.featured-description{
+.featured-description {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 14px;
@@ -62,7 +62,12 @@
     margin-top: 18px;
 }
 
-.featured-flowers{
+.featured-paragraph{
+    margin-top: 18px;
+}
+
+
+.featured-flowers {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,7 +75,7 @@
     margin-top: 50px;
 }
 
-.pink-background{
+.pink-background {
     padding-top: 40px;
     padding-left: 30px;
     padding-right: 30px;
@@ -79,12 +84,12 @@
 
 }
 
-.size{
+.size {
     width: 150px;
     height: 200px;
 }
 
-.sky-background{
+.sky-background {
 
     padding-top: 40px;
     padding-left: 30px;
@@ -93,7 +98,7 @@
     background-color: rgba(5, 151, 160, 0.15);
 }
 
-.gray-background{
+.gray-background {
     padding-top: 40px;
     padding-left: 30px;
     padding-right: 30px;
@@ -101,42 +106,42 @@
     background-color: rgba(71, 125, 17, 0.15);
 }
 
-.flower-name ul{
+.flower-name ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
     list-style: none;
     margin-bottom: 50px;
-    
+
 
 }
 
-.flower-name ul li{
+.flower-name ul li {
     text-decoration: underline;
-    
+
 }
 
-.position{
+.position {
     margin-top: 10px;
     margin-left: 220px;
     margin-right: -10px;
     color: #272727;
 }
 
-.position-second{
+.position-second {
     color: #272727;
     margin-right: 90px;
     margin-left: -130px;
-    
+
 }
 
-.position-third{
+.position-third {
     color: #272727;
     margin-right: 230px;
     margin-left: -220px;
 }
 
-.featured-services{
+.featured-services {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -148,18 +153,67 @@
     gap: 55px;
 }
 
-.icon-size{
+.icon-size {
     width: 35px;
-   margin-left: 58px;
+    margin-left: 58px;
 }
 
-.icon-description{
+.icon-description {
     color: rgba(39, 39, 39, 0.80);
-   text-align: center;
-   font-size: 8.8px;
-   font-weight: 600;
+    text-align: center;
+    font-size: 8.8px;
+    font-weight: 600;
+}
 
+.sale-container{
+    background-color: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 90px;
+    padding-bottom: 50px;
+    
+}
 
+.sale-description{
+
+    margin-left: 190px;
+    margin-right: -180px;
+}
+
+.sale-title{
+    color: #272727;
+    font-size: 27px;
+    font-weight: 800;
+}
+
+.sale-paragraph{
+
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400; 
+    margin-top: 8px;
+}
+
+.sale-btn{
+
+    border-radius: 8px;
+    background: #E55473;
+    color: white;
+    border: none;
+    padding: 9px 20px;
+    margin-top: 20px;
+    margin-left: 150px;
 
 }
 
+.sale-image{
+    margin-right: 170px;
+}
+
+.roses{
+    margin-top: 30px;
+   width: 180px;
+   height: 250px;
+}
