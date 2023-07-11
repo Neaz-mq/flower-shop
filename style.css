@@ -2,8 +2,6 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Lato', sans-serif;
-    font-family: 'Noto Serif', serif;
-    font-family: 'Open Sans', sans-serif;
 }
 
 .banner-container {
@@ -45,7 +43,6 @@
     margin-bottom: 60px;
 }
 
-
 .featured-title {
     color: #272727;
     text-align: center;
@@ -66,7 +63,6 @@
     margin-top: 18px;
 }
 
-
 .featured-flowers {
     display: flex;
     justify-content: center;
@@ -81,7 +77,6 @@
     padding-right: 30px;
     border-radius: 300px 300px 0px 0px;
     background-color: rgba(167, 33, 98, 0.15);
-
 }
 
 .size {
@@ -90,7 +85,6 @@
 }
 
 .sky-background {
-
     padding-top: 40px;
     padding-left: 30px;
     padding-right: 30px;
@@ -112,13 +106,10 @@
     align-items: center;
     list-style: none;
     margin-bottom: 50px;
-
-
 }
 
 .flower-name ul li {
     text-decoration: underline;
-
 }
 
 .position {
@@ -132,12 +123,11 @@
     color: #272727;
     margin-right: 90px;
     margin-left: -130px;
-
 }
 
 .position-third {
     color: #272727;
-    margin-right: 230px;
+    margin-right: 220px;
     margin-left: -220px;
 }
 
@@ -170,15 +160,15 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 90px;
-    padding-bottom: 50px;
+    margin-bottom: 60px;
+    padding-bottom: 30px;
     
 }
 
 .sale-description{
-
     margin-left: 190px;
     margin-right: -180px;
+    margin-top: 60px;
 }
 
 .sale-title{
@@ -188,7 +178,6 @@
 }
 
 .sale-paragraph{
-
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 12px;
@@ -197,7 +186,6 @@
 }
 
 .sale-btn{
-
     border-radius: 8px;
     background: #E55473;
     color: white;
@@ -205,7 +193,6 @@
     padding: 9px 20px;
     margin-top: 20px;
     margin-left: 150px;
-
 }
 
 .sale-image{
@@ -214,6 +201,88 @@
 
 .roses{
     margin-top: 30px;
-   width: 180px;
-   height: 250px;
+    width: 180px;
+    height: 250px;
+}
+
+.instagram-title{
+    color: #272727;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800; 
+}
+
+.instagram-paragraph{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;   
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 8px;    
+}
+
+.instagram-flowers{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 85px;
+    margin-right: 90px;
+    margin-top: 40px;
+    padding-left: 120px;
+    padding-right: 120px;
+    
+}
+
+.instagram-flowers img{
+    width: 210px;
+    height: 250px;
+    margin-bottom: 70px; 
+}
+
+.instagram-background{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 56%;
+    margin: auto;
+    padding: 110px 80px;
+    border-radius: 8px;
+    background-image: url('assets/Rectangle\ 9.png');
+    margin-bottom: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+
+.background-title{
+    color: #272727;
+    margin-left: 270px;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: -50px;
+}
+
+.background-paragraph{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center; 
+    font-size: 12px;
+    font-weight: 400; 
+    margin-left: 270px;
+    margin-top: 5px;
+    margin-right: 160px;
+}
+
+.input-field{
+    border-radius: 8px;
+    background-color: #FFF;
+    border: none;
+    width: 420px;
+    height: 40px;
+    margin-top: 30px;
+    padding-left: 15px;
+    margin-left: 140px;
+}
+
+.button-background{
+    border-radius: 8px;
+    background-color: #E55473;  
+    margin-left: 5px;
 }
