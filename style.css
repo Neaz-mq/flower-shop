@@ -4,6 +4,8 @@
     font-family: 'Lato', sans-serif;
 }
 
+/* This is the Banner Section */
+
 .banner-container {
     display: flex;
     justify-content: space-around;
@@ -39,6 +41,8 @@
     margin-top: 30px;
 }
 
+/* This is the Featured Section */
+
 .featured-container {
     margin-bottom: 60px;
 }
@@ -59,7 +63,7 @@
     margin-top: 18px;
 }
 
-.featured-paragraph{
+.featured-paragraph {
     margin-top: 18px;
 }
 
@@ -155,37 +159,39 @@
     font-weight: 600;
 }
 
-.sale-container{
+/* This is the Sale Section */
+
+.sale-container {
     background-color: rgba(229, 84, 115, 0.05);
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 60px;
     padding-bottom: 30px;
-    
+
 }
 
-.sale-description{
+.sale-description {
     margin-left: 190px;
     margin-right: -180px;
     margin-top: 60px;
 }
 
-.sale-title{
+.sale-title {
     color: #272727;
     font-size: 27px;
     font-weight: 800;
 }
 
-.sale-paragraph{
+.sale-paragraph {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 12px;
-    font-weight: 400; 
+    font-weight: 400;
     margin-top: 8px;
 }
 
-.sale-btn{
+.sale-btn {
     border-radius: 8px;
     background: #E55473;
     color: white;
@@ -195,32 +201,34 @@
     margin-left: 150px;
 }
 
-.sale-image{
+.sale-image {
     margin-right: 170px;
 }
 
-.roses{
+.roses {
     margin-top: 30px;
     width: 180px;
     height: 250px;
 }
 
-.instagram-title{
+/* This is the Instagram Section */
+
+.instagram-title {
     color: #272727;
     text-align: center;
-    font-size: 25px;
-    font-weight: 800; 
+    font-size: 28px;
+    font-weight: 800;
 }
 
-.instagram-paragraph{
+.instagram-paragraph {
     color: rgba(39, 39, 39, 0.60);
-    text-align: center;   
+    text-align: center;
     font-size: 12px;
     font-weight: 400;
-    margin-top: 8px;    
+    margin-top: 8px;
 }
 
-.instagram-flowers{
+.instagram-flowers {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -229,16 +237,16 @@
     margin-top: 40px;
     padding-left: 120px;
     padding-right: 120px;
-    
+
 }
 
-.instagram-flowers img{
+.instagram-flowers img {
     width: 210px;
     height: 250px;
-    margin-bottom: 70px; 
+    margin-bottom: 70px;
 }
 
-.instagram-background{
+.instagram-background {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -249,10 +257,10 @@
     background-image: url('assets/Rectangle\ 9.png');
     margin-bottom: 90px;
     background-size: cover;
-    background-repeat: no-repeat;  
+    background-repeat: no-repeat;
 }
 
-.background-title{
+.background-title {
     color: #272727;
     margin-left: 270px;
     font-size: 24px;
@@ -260,17 +268,17 @@
     margin-top: -50px;
 }
 
-.background-paragraph{
+.background-paragraph {
     color: rgba(39, 39, 39, 0.60);
-    text-align: center; 
+    text-align: center;
     font-size: 12px;
-    font-weight: 400; 
+    font-weight: 400;
     margin-left: 270px;
     margin-top: 5px;
     margin-right: 160px;
 }
 
-.input-field{
+.input-field {
     border-radius: 8px;
     background-color: #FFF;
     border: none;
@@ -281,54 +289,91 @@
     margin-left: 140px;
 }
 
-.button-background{
+.button-background {
     border-radius: 8px;
-    background-color: #E55473;  
+    background-color: #E55473;
     margin-left: 5px;
 }
 
-.contact-container{
+/* This is the Contact Section */
+
+.contact-container {
 
     background-color: rgba(229, 84, 115, 0.10);
     height: 100vh;
 
 }
 
-.contact-title{
+.contact-title {
     color: #272727;
     text-align: center;
-    font-size: 30px;
-    font-weight: 800; 
+    font-size: 35px;
+    font-weight: 800;
     padding-top: 60px;
 }
 
-.contact-description{
+.contact-description {
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 200px;
 }
 
-.garden{
-   width: 41%;
-   margin-top: 80px;
-   margin-left: 100px;
-   border-radius: 10px;
-   box-shadow: 6px 6px 10px gray;
-   
+.garden {
+    width: 41%;
+    margin-top: 70px;
+    margin-left: 100px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px gray;
+
 }
 
-.contact-form{
+.contact-form {
     margin-left: 220px;
-    margin-top: 90px;
-   
+    margin-top: 70px;
+
 }
 
-.box{
+.box {
     width: 300px;
     padding: 10px;
     border: none;
     border-radius: 8px;
-   
+
 }
 
+/* This is the Footer Section */
+
+.footer-container {
+    background-color: #111010;
+    height: 40vh;
+}
+
+.footer-title {
+    color: #E55473;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.footer-paragraph {
+    color: rgba(255, 255, 255, 0.846);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 15px;
+
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+
+/* End of style */
