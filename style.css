@@ -247,7 +247,7 @@
     padding: 110px 80px;
     border-radius: 8px;
     background-image: url('assets/Rectangle\ 9.png');
-    margin-bottom: 40px;
+    margin-bottom: 90px;
     background-size: cover;
     background-repeat: no-repeat;  
 }
@@ -286,3 +286,49 @@
     background-color: #E55473;  
     margin-left: 5px;
 }
+
+.contact-container{
+
+    background-color: rgba(229, 84, 115, 0.10);
+    height: 100vh;
+
+}
+
+.contact-title{
+    color: #272727;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800; 
+    padding-top: 60px;
+}
+
+.contact-description{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 200px;
+}
+
+.garden{
+   width: 41%;
+   margin-top: 80px;
+   margin-left: 100px;
+   border-radius: 10px;
+   box-shadow: 6px 6px 10px gray;
+   
+}
+
+.contact-form{
+    margin-left: 220px;
+    margin-top: 90px;
+   
+}
+
+.box{
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+   
+}
+
